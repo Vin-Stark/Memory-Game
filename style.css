@@ -163,4 +163,78 @@ button {
     color: #fff;
     text-decoration: none;
   }
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.form-signin {
+  max-width: 330px;
+  padding: 15px;
+}
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.text-center
+{
+background-image: url(/Users/vinsonpolumati/Desktop/admin/retrosupply-jLwVAUtLOAQ-unsplash.jpg);
+background-size: 1420px;
+}
+.form-signin
+{
+  font-family: 'Mulish', sans-serif;
+  background-color: #393E46;
+  position: relative;
+  top: 100px;
+   box-shadow: 0 8px 12px 15px rgba(0, 0, 0, 0.4), 0 10px 24px 0 rgba(0, 0, 0, 0.23);
+}
+.btn{
+  background-color: #F2E7D5;
+  border-color: black;
+  border-radius: 23px;
+  border-width: 5px;
+  color: #393E46;
+}
+.form-control
+{
+  border-radius: 10px;
+  border-color: black;
+  border-width: 1.5px;
+}
+.fw-normal
+{
+  color: #F7F7F7;
+}
+.checkbox
+{
+  color: #F7F7F7;
+}
+p{
+  color: #F7F7F7;
+}
+.sign-up
+{
+  padding-top: 10px;
+}
+
   
